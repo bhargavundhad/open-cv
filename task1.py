@@ -4,7 +4,7 @@ import numpy as np
 
 img =cv2.imread("yellow_detect.jpeg")
 img =cv2.resize(img,(600,400))
-img =cv2.rectangle(img,(250,190),(300,220),(255,255,0),2)
+#img =cv2.rectangle(img,(250,190),(300,220),(255,255,0),2)
 #print(img)
 cv2.imshow("original image",img)
 
